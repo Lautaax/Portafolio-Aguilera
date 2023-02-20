@@ -1,0 +1,139 @@
+.contenedor {
+    width: fit-content;
+}
+
+.separador {
+    height: 45vh;
+}
+
+@keyframes typing {
+    0% {
+        width: 0
+    }
+    20% {
+        width: 20%;
+    }
+    40% {
+        width: 20%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #52E1E2;
+    }
+}
+
+
+.titulo {
+    width: 0%;
+    overflow: hidden;
+    border-right: .15em solid #52E1E2;
+    white-space: nowrap;
+    color: #00ff15;
+    font-weight: bold;
+    animation: typing 4.5s steps(60, end) forwards, blink-caret .85s step-end infinite;
+    }
+    
+
+
+.color {
+color: #AAC6C6;
+}
+
+@keyframes wave {
+    0% {
+        width: 5px;
+        height: 5px;
+        opacity: 1;
+    }
+    90% {
+        width: 50px;
+        height: 50px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+    }
+}
+
+
+.classboton {
+    color: rgb(247, 247, 247);
+    border-radius: 25px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    outline: none;
+    border: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.classboton:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 4px #DF00FF;
+}
+
+.classboton:hover:before {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.classboton:before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0.2em;
+    left: 0;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    opacity: 0;
+    font-size: 40px;
+    transform: translate(-100%, 0);
+    transition: all .3s ease-in-out;
+}
+
+.classboton:hover div {
+    opacity: 100;
+    transform: translate(140%, 0)
+}
+
+.classboton div {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all .3s ease-in-out;
+}
+
+
+
+.botongit{
+    color: #060606;
+    font-size: 24px;
+    font-weight:bolder;
+    background-color: rgba(206, 243, 240, 0.712) ;
+    border-radius: 25px;
+    letter-spacing: 3px;
+    padding: 15px 50px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .separador {
+        height: 62vh;
+        
+    }
+
+}

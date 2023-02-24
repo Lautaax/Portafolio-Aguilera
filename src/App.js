@@ -1,17 +1,17 @@
 import "./App.css";
-import NavBar from "./components/NavBar/NavBar";
-import "./components/NavBar/NavBar.css";
+import {NavBar} from "./components/NavBar/NavBar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Presentacion } from "./components/NavBar/Presentacion";
-import "./components/NavBar/Presentacion.css";
 import { Footer } from "./components/Footer/Footer";
-import "./components/Footer/Footer.css";
 import { Jobs } from "./components/Jobs/Jobs";
 import { Contact } from "./components/Contact/Contact";
+
+const TITLE = 'My Page Title';
 
 function App() {
   return (
     <div className="fondo">
+      <title>{ TITLE }</title>
       <BrowserRouter>
         <NavBar />
         <Routes>

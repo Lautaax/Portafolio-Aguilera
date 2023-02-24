@@ -1,11 +1,13 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import "./NavBar.css"
 
-const Navbar = () => {
+export const NavBar = () => {
   return (
     <div className=" d-flex w-50 h-50  mx-auto flex-column"
     >
     <div>
+
         <div className="menuu">
             <ul className="mennu">
                 <li className="item"><Link to="/" className="nav-link" aria-current="page">Inicio</Link></li>
@@ -19,4 +21,3 @@ const Navbar = () => {
   )
 }
 
-export default Navbar

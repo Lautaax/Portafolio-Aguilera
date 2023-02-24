@@ -7,7 +7,7 @@ import {
   MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
-import "./Footer.css"
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

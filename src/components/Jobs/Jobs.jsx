@@ -4,51 +4,59 @@ import {
     MDBCarouselItem,
     MDBBtn,
 } from 'mdb-react-ui-kit';
+import Peluqueria from '../Images/peluyago.png';
+import ExPorta from '../Images/portafolio.png'
+import Proximamente from '../Images/proximamente.png'
+import "./Jobs.css"
 
 export const Jobs = () => {
     return (
         <div >
-        <MDBCarousel showIndicators showControls fade style={{   height: "64vh" }}>
-            <MDBCarouselItem 
-            style={{   height: "60vh" }}
-                className='w-100 '
-                itemId={1}
-                src='https://soylautaa.000webhostapp.com/imagenes/peluyago.bmp'
-                alt='...'
-                
-            >
-                <h5>Diseño web para peluqueria</h5>
-                <p>Se usaron diferentes tecnologias Boostrap, Grid, Flexbox, SASS, SCSS y JavaScript</p>
-                <MDBBtn className='text-white bg-dark' href='https://soylautaa.000webhostapp.com/' tag="a" outline size="lg">
-                Ir a la web
-              </MDBBtn>
-            </MDBCarouselItem>
+            <MDBCarousel showIndicators showControls dealy={100000} style={{ height: "64vh" }}>
+                <MDBCarouselItem
+                    style={{ height: "60vh" }}
+                    className='w-100 '
+                    itemId={1}
+                    src={Peluqueria}
+                    alt='...'
 
-            <MDBCarouselItem
-                style={{   height: "60vh" }}
-                className='w-100 '
-                itemId={2}
-                src='https://i.ibb.co/93cPxjf/logo.png'
-                alt='...'
-            >
-                <h5 className='text-white bg-dark'>Mi otro portafolio </h5>
-                <p className='text-white bg-dark' >Se uso HTML, CSS y Boostrap</p>
-                <MDBBtn className='text-white bg-dark' href='https://soylautaa.000webhostapp.com/#' tag="a" outline size="lg">
-                Ir a la web
-              </MDBBtn>
-            </MDBCarouselItem>
+                ><div className='text-white bg-dark item'>
+                    <h5>Diseño web para peluqueria</h5>
+                    <p>  Se usaron diferentes tecnologias Boostrap, Grid, Flexbox, SASS, SCSS y JavaScript  </p>
+                    </div>
+                    <MDBBtn className='text-white bg-dark'  color='success' href='https://soylautaa.000webhostapp.com/' tag="a" target="_blank" outline size="lg">
+                        Ir a la web
+                    </MDBBtn>
+                </MDBCarouselItem>
 
-            <MDBCarouselItem
-                style={{   height: "40vh" }}
-                className='w-100 '
-                itemId={3}
-                src='https://comunidad.boosteragro.com/wp-content/uploads/2018/12/proximamente.png'
-                alt='...'
-            >
-                <h5 className='text-white bg-dark'>Con tu ayuda podre subir mas contenido a mi portafolio</h5>
-                <p className='text-white bg-dark'>Que esperas para tener tu web?</p>
-            </MDBCarouselItem>
-        </MDBCarousel>
+                <MDBCarouselItem
+                    style={{ height: "60vh" }}
+                    className='w-100 '
+                    itemId={2}
+                    src={ExPorta}
+                    alt='...'
+                >   <div className=' text-white bg-dark item'>
+                    <h5 >  Mi otro portafolio   </h5>
+                    <p >  Se uso HTML, CSS y Boostrap  </p>
+                    </div>
+                    <MDBBtn className='text-white bg-dark' color='success'  href='https://soylautaa.000webhostapp.com/#' tag="a" target="_blank" outline size="lg">
+                        Ir a la web
+                    </MDBBtn>
+                    
+                </MDBCarouselItem>
+
+                <MDBCarouselItem
+                    style={{ height: "60vh" }}
+                    className='w-100 '
+                    itemId={3}
+                    src={Proximamente}
+                    alt='...'
+                ><div className='text-white bg-dark item'>
+                    <h5 >Con tu ayuda podre subir mas contenido a mi portafolio</h5>
+                    <p >Que esperas para tener tu web?</p>
+                    </div>
+                </MDBCarouselItem>
+            </MDBCarousel>
         </div>
     );
 

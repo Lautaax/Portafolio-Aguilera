@@ -24,7 +24,7 @@ export const Jobs = () => {
                     <h5>Diseño web para peluqueria</h5>
                     <p>  Se usaron diferentes tecnologias Boostrap, Grid, Flexbox, SASS, SCSS y JavaScript  </p>
                     </div>
-                    <MDBBtn className='text-white bg-dark'  color='success' href='https://soylautaa.000webhostapp.com/' tag="a" target="_blank" outline size="lg">
+                    <MDBBtn className='text-white bg-dark'  color='success' href='https://yagocastrobarber.000webhostapp.com/' tag="a" target="_blank" outline size="lg">
                         Ir a la web
                     </MDBBtn>
                 </MDBCarouselItem>

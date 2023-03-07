@@ -49,6 +49,41 @@ export const Jobs = () => {
                     style={{ height: "60vh" }}
                     className='w-100 '
                     itemId={3}
+                    src={ExPorta}
+                    alt='...'
+                >   <div className=' text-white bg-dark item'>
+                    <h5 >  Plataforma de E-commerce    </h5>
+                    <p >  Se uso HTML, CSS , React </p>
+                    <p>React Boostrap De libreria de estilizado</p>
+                    </div>
+                    <MDBBtn className='text-white bg-dark' color='success'  href='https://ecommerce-react-aguilera.vercel.app/' tag="a" target="_blank" outline size="lg">
+                        Ir a la web
+                    </MDBBtn>
+                </MDBCarouselItem>
+
+
+                <MDBCarouselItem
+                    style={{ height: "60vh" }}
+                    className='w-100 '
+                    itemId={3}
+                    src={ExPorta}
+                    alt='...'
+                >   <div className=' text-white bg-dark item'>
+                    <h5 >  Plataforma de E-commerce    </h5>
+                    <p >  Se uso HTML, CSS , JavaScript </p>
+                    </div>
+                    <MDBBtn className='text-white bg-dark' color='success'  href='https://ecomerce-js.vercel.app/' tag="a" target="_blank" outline size="lg">
+                        Ir a la web
+                    </MDBBtn>
+                    
+                </MDBCarouselItem>
+
+
+
+                <MDBCarouselItem
+                    style={{ height: "60vh" }}
+                    className='w-100 '
+                    itemId={5}
                     src={Proximamente}
                     alt='...'
                 ><div className='text-white bg-dark item'>

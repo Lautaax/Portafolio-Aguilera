@@ -1,13 +1,16 @@
-.nombre{
-    color: aliceblue;
+.fondo {height: 64%;}
+
+
+.image {
+
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr{
+width: 32%;
 }
 
-.email{
-    color: aliceblue;
-}
-
-.telefono{
-    color: aliceblue;
-}
 
     

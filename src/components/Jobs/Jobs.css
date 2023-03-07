@@ -5,3 +5,8 @@
     padding: 1px;
     margin-bottom: 0.1em;
   }
+  
+  .foto{
+    object-fit:contain
+
+  }

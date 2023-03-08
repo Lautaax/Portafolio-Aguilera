@@ -13,15 +13,13 @@ import "./Jobs.css"
 
 export const Jobs = () => {
     return (
-        <div >
-            <MDBCarousel showIndicators showControls dealy={200000} style={{ height: "64vh" }}>
+        <div className='jobsfondoo' >
+            <MDBCarousel showIndicators showControls dealy={200000} >
                 <MDBCarouselItem
-                    style={{ height: "60vh" }}
                     className='w-100 foto '
                     itemId={1}
                     src={Peluqueria}
                     alt='...'
-
                 ><div className='text-white bg-dark item'>
                         <h5>Diseño web para peluqueria</h5>
                         <p>  Se usaron diferentes tecnologias Boostrap, Grid, Flexbox, SASS, SCSS y JavaScript  </p>
@@ -32,7 +30,6 @@ export const Jobs = () => {
                 </MDBCarouselItem>
 
                 <MDBCarouselItem
-                    style={{ height: "60vh" }}
                     className='w-100 foto '
                     itemId={2}
                     src={ExPorta}
@@ -48,8 +45,7 @@ export const Jobs = () => {
                 </MDBCarouselItem>
 
                 <MDBCarouselItem
-                    style={{ height: "60vh" }}
-                    className='w-100 foto'
+                    className='w-100 foto '
                     itemId={3}
                     src={proyecReac}
                     alt='...'
@@ -65,7 +61,6 @@ export const Jobs = () => {
 
 
                 <MDBCarouselItem
-                    style={{ height: "60vh" }}
                     className='w-100 foto '
                     itemId={4}
                     src={Proyecjs}
@@ -83,7 +78,6 @@ export const Jobs = () => {
 
 
                 <MDBCarouselItem
-                    style={{ height: "60vh" }}
                     className='w-100 foto '
                     itemId={5}
                     src={Proximamente}

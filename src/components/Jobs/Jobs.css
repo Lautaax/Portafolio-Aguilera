@@ -7,6 +7,14 @@
   }
   
   .foto{
-    object-fit:contain
+    object-fit:contain;
+    height: 64vh;
 
   }
+  
+@media only screen and (max-width: 800px) {
+  .jobsfondoo {
+      height: 70vh;
+      
+  }
+}

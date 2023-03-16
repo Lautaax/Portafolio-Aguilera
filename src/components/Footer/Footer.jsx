@@ -21,7 +21,7 @@ export const Footer = () => {
           <MDBIcon fab icon='twitter' />
         </MDBBtn>
 
-        <MDBBtn outline color="light" floating className='m-1' href='https://www.instagram.com/_lautaa/' role='button'>
+        <MDBBtn outline color="light" floating className='m-1' href='https://www.instagram.com/soylautaa.dev/' role='button'>
           <MDBIcon fab icon='instagram' />
         </MDBBtn>
 

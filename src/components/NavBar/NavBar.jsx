@@ -12,6 +12,7 @@ export const NavBar = () => {
             <ul className="mennu">
                 <li className="item"><Link to="/" className="nav-link" aria-current="page">Inicio</Link></li>
                 <li className="item"><Link to="/Jobs/" className="nav-link">Trabajos</Link></li>
+                <li className="item"><Link to="/AboutMe/" className="nav-link">AboutMe</Link></li>
                 <li className="item"><Link to="/Contact/" className="nav-link">Contacto</Link></li>
             </ul>
         </div>

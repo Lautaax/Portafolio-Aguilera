@@ -32,6 +32,7 @@ body {
 }
 
 .item {
+  display: flex;
   margin: auto;
   color: rgb(252, 252, 252);
   font-size: 20px;
@@ -40,7 +41,6 @@ body {
 
 .item:after {
   display: block;
-  content: "";
   border-bottom: solid 1px #00ffff;
   padding-bottom: 1%;
   transform: scaleX(0);
@@ -54,7 +54,9 @@ body {
 @media only screen and (max-width: 800px) {
 
     .mennu {
-        margin: 5%;
-        width:450px ;
+      display: flex;
+      justify-content: center;
+        margin: 0%;
+        width:400px ;
     }
 }

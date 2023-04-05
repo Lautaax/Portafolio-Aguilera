@@ -1,5 +1,12 @@
 .presentFondoo{height: 65.7vh;}
 
+.colorletra{
+    color: #27fd06;
+    font-weight:bolder ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 @media only screen and (max-width: 800px) {
     .presentFondoo {
         height: 60vh;

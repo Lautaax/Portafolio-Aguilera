@@ -3,10 +3,14 @@
   --font-style: "Nunito Sans", sans-serif;
 }
 
-body {
-  font-family: var(--font-style);
-  background-color: rgb(100, 58, 138);
+.colorfondoo{
+  background-color: rgb(27, 61, 75);  
 }
+
+.letraNav{
+  color: #00ffff;
+}
+
 .menuu {
   display: flex;
   justify-content: center;

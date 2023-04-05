@@ -3,18 +3,18 @@ import "./AboutMe.css";
 
 export const AboutMe = () => {
     return (
-        <div className="fondoabout d-flex justify-content-center align-items-center text-center text-white bg-dark">
+        <div className="fondoabout d-flex justify-content-center align-items-center text-center text-white  ">
             <div>
-                <h1>Sobre mí</h1>
-                <h4>Diseñador web y Desarrollador web freelance </h4>
-                <h2>¿Qué servicios ofrezco?</h2>
-                <h5>Actualmente diseño, rediseño y programo nuevos proyectos y sitios web.</h5>
-                <h2>Con que idiomas trabajo?</h2>
-                <h5>HTML, JavaScript y React.js</h5>
+                <h1>Quien es Lautaa?</h1>
+                <h4>Un Diseñador y Desarrollador web freelance </h4>
+                <h2>¿Qué servicios ofrezce?</h2>
+                <h5>Actualmente diseño, rediseño y desarrolla nuevos proyectos y sitios web.</h5>
+                <h2>Con que idiomas trabaja?</h2>
+                <h5>HTML,CSS, JavaScript y React.js</h5>
                 <h2>Herramientas de desarrollo:</h2>
-                <p>Github</p>
-                <p>Vercel</p>
-                <p>Bootstrap</p>
+                <p>Git, Github, Vercel</p>
+                <p>Bootstrap,</p>
+                <p>Balsamiq</p>
                 <p>Figma</p>
             </div>
         </div>

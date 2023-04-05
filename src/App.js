@@ -7,7 +7,7 @@ import { Jobs } from "./components/Jobs/Jobs";
 import { Contact } from "./components/Contact/Contact";
 import { AboutMe } from "./components/AboutMe/AboutMe";
 
-const TITLE = 'My Page Title';
+const TITLE = 'HolaSoyLautaa';
 
 function App() {
   return (
